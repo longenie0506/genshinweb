@@ -36,3 +36,63 @@ body{
     height:100%;
     object-fit: cover;
 }
+
+#s1-content{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60px;
+    left:0;
+}
+
+#s1-download{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.s1-flex{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#s1-qrimg{
+    width: 130px;
+    height: 130px;
+}
+.s1-fleximg{
+    width: auto;
+    height: 60px;
+}
+
+#s1-intro{
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #ff000043;
+    padding: 50px;
+}
+
+#s1-playlabel{
+    width: 356px;
+    height:76px;
+    background-image: url("assets/image2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#s1-playbutton:hover{
+    cursor: pointer;
+}
